@@ -26,4 +26,4 @@ jobs:
           if (Test-Path requirements.txt) { pip install -r requirements.txt }
 
       - name: Run Python script
-        run: python path\to\your_script.py
+        run: pythin_check.py
