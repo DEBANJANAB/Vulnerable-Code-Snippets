@@ -4,7 +4,7 @@ import subprocess
 
 # Step 1: Run Bandit and generate JSON output
 # Replace 'your_script.py' with the target script or directory
-result = subprocess.run(['bandit', '-r', 'D:/Vulnerable Code Snippets/', '-f', 'json'], capture_output=True, text=True)
+result = subprocess.run(['bandit', '-r', '/Vulnerable Code Snippets/', '-f', 'json'], capture_output=True, text=True)
 bandit_output = result.stdout
 print(bandit_output)
 # Step 2: Parse the JSON output
